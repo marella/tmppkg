@@ -1,0 +1,6 @@
+{
+  "private": true,
+  "dependencies": {
+    "camelcase": "^4.0.0"
+  }
+}
