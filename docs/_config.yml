@@ -1,4 +1,5 @@
 remote_theme: marella/jekyll-theme-github
 permalink: pretty
+markdown: kramdown
 kramdown:
   parse_block_html: true
