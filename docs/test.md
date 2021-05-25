@@ -1,3 +1,7 @@
+> Some text [link](https://example.com/).
+>
+> &mdash; *[Source](https://example.com/)*
+
 ## A collapsible section containing markdown
 <details>
 <summary><strong>Click to expand!</strong></summary>
