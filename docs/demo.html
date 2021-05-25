@@ -4,8 +4,6 @@ layout: default
 
 <h2>Demo</h2>
 
-{{ "/iconfont/codepoints.json?v=" | append: site.github.build_revision | relative_url }}
-
 <script>
-const url = "{{ "/iconfont/codepoints.json?v=" | append: site.github.build_revision | relative_url }}"
+const data = '{{ site.data.foo | jsonify }}'
 </script>
