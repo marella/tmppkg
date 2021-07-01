@@ -2,8 +2,8 @@
 layout: default
 ---
 
-<h2>Index</h2>
-
-<script>
-const data = '{{ site.data.foo | jsonify }}'
-</script>
+<script type="text/javascript">
+const baseUrl = '{{ "/demo/" | relative_url }}';
+const format = new URLSearchParams(window.location.search).get('format') === 'svg' ? 'svg' : 'font';
+window.location.href = baseUrl + format;
+</script>;
